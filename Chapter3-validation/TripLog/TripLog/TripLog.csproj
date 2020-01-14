@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Qwantalabs.Shared\Qwantalabs.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\DetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
