@@ -10,7 +10,7 @@ namespace TripLog.ViewModels
     {
         ObservableCollection<TripLogEntry> _logEntries;
 
-        ObservableCollection<TripLogEntry> LogEntries {
+        public ObservableCollection<TripLogEntry> LogEntries {
             get => _logEntries;
             set { _logEntries = value; OnPropertyChanged(); }
         }
