@@ -17,7 +17,7 @@ namespace TripLog.ViewModels
             set { _logEntries = value; OnPropertyChanged(); }
         }
 
-        public MainViewModel(INavService navService) : base (navService)
+        public MainViewModel(INavService navService) : base(navService)
         {
             LogEntries = new ObservableCollection<TripLogEntry>();
         }
@@ -32,12 +32,12 @@ namespace TripLog.ViewModels
             LogEntries.Clear();
             LogEntries.Add(new TripLogEntry
             {
-                Title = "Washington Monument",
-                Notes = "Amazing!",
+                Title = "La Elipa",
+                Notes = "Si que flipa",
                 Rating = 3,
                 Date = new DateTime(2019, 2, 5),
-                Latitude = 38.8895,
-                Longitude = -77.0352
+                Latitude = 40.4246727,
+                Longitude = -3.652186
             });
             LogEntries.Add(new TripLogEntry
             {
